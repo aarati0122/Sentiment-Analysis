@@ -1,0 +1,9 @@
+Classifier,Methods,Accuracy,Precision,Recall,F1Score
+LogisticRegression,TF-IDF,53.333,65.128,53.333,46.004
+KNeighborsClassifier,TF-IDF,46.667,46.19,46.667,46.154
+DecisionTreeClassifier,TF-IDF,40.0,53.333,40.0,40.081
+RandomForestClassifier,TF-IDF,53.333,65.128,53.333,46.004
+AdaBoostClassifier,TF-IDF,40.0,53.333,40.0,40.081
+GradientBoostingClassifier,TF-IDF,40.0,37.879,40.0,35.793
+MultinomialNB,TF-IDF,53.333,65.128,53.333,46.004
+BernoulliNB,TF-IDF,40.0,16.0,40.0,22.857

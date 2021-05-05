@@ -1,0 +1,9 @@
+Classifier,Methods,Accuracy,Precision,Recall,F1Score
+LogisticRegression,"TF-IDF, N-grams",53.333,65.128,53.333,46.004
+KNeighborsClassifier,"TF-IDF, N-grams",40.0,38.667,40.0,38.413
+DecisionTreeClassifier,"TF-IDF, N-grams",40.0,53.333,40.0,40.081
+RandomForestClassifier,"TF-IDF, N-grams",53.333,65.128,53.333,46.004
+AdaBoostClassifier,"TF-IDF, N-grams",40.0,60.741,40.0,41.293
+GradientBoostingClassifier,"TF-IDF, N-grams",40.0,37.879,40.0,35.793
+MultinomialNB,"TF-IDF, N-grams",53.333,65.128,53.333,46.004
+BernoulliNB,"TF-IDF, N-grams",40.0,16.0,40.0,22.857
