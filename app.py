@@ -6,10 +6,10 @@ import requests
 import pandas as pd
 import numpy as np
 import os
-import nltk
-import contractions
-import re
-from nltk.tokenize.toktok import ToktokTokenizer
+# import nltk
+# import contractions
+# import re
+# from nltk.tokenize.toktok import ToktokTokenizer
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
