@@ -10,10 +10,10 @@ import os
 # import contractions
 # import re
 # from nltk.tokenize.toktok import ToktokTokenizer
-import pandas as pd
-import matplotlib.pyplot as plt
+# import pandas as pd
+# import matplotlib.pyplot as plt
 import seaborn as sns
-import numpy as np
+# import numpy as np
 from sklearn.model_selection import KFold
 from sklearn.model_selection import cross_val_score
 
