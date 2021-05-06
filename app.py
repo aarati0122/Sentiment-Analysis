@@ -203,10 +203,10 @@ def main():
     precision = precision_score(y_test, y_pred_cv1_nb,average='weighted')
     recall = recall_score(y_test, y_pred_cv1_nb,average='weighted')
     cm3 = [accuracy, precision, recall, f1]
-    # st.write("Accuracy: {:.2%}".format(accuracy))
-    # st.write("Precision: {:.2%}".format(precision))
-    # st.write("Recall: {:.2%}".format(recall))
-    # st.write("F1 Score: {:.2%}".format(f1))
+    st.write("Accuracy: {:.2%}".format(accuracy))
+    st.write("Precision: {:.2%}".format(precision))
+    st.write("Recall: {:.2%}".format(recall))
+    st.write("F1 Score: {:.2%}".format(f1))
     return cm3
 
   def naive_bayes2():
@@ -457,7 +457,7 @@ def main():
       results_nb = pd.DataFrame(list(zip(cm3, cm4)))
       results_nb = results_nb.set_index([['Accuracy', 'Precision', 'Recall', 'F1 Score']])
       results_nb.columns = ['NB1-CV', 'NB2-CV-Ngr']
-      results_nb
+      results_nb = results_nb.columns
       results = pd.concat([results, results_nb], axis=1)
       st.write(results)
   if regression == "KNeighbors Classifier":
