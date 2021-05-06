@@ -407,7 +407,7 @@ def main():
      
     ch = st.sidebar.checkbox("Pie chart of Sentiment Analysis")
     if(ch):
-      st.subheader('Sentiment Rate for web scrapng data')
+      st.subheader('Sentiment Rate for web scraping data')
       chart = piechart(sentiment)
       st.write("Total records: ",len(sentiment))
       st.write("Train records: ",len(x_train))
