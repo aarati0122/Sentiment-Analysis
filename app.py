@@ -454,6 +454,7 @@ def main():
     if(campare):
       cm3 = naive_bayes1()
       cm4 = naive_bayes2()
+      results = 0
       results_nb = pd.DataFrame(list(zip(cm3, cm4)))
       results_nb = results_nb.set_index([['Accuracy', 'Precision', 'Recall', 'F1 Score']])
       results_nb.columns = ['NB1-CV', 'NB2-CV-Ngr']
